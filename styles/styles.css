@@ -9,10 +9,22 @@ aside {
     background-color: #eee; 
     color: #333; 
     text-align: center;
+    position: relative;
+    
 }
 aside img {
   width: 200px;
   height: auto;
+}
+aside h2{
+    position: absolute;
+    top: 10px;
+    left: 120px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 nav {
     background-color: steelblue;
@@ -32,6 +44,7 @@ main img {
   border: 1px solid steelblue;
   padding: 2px;
   box-shadow: 0 0 30px gray;
+  float: right;
  }
  p {
     padding: 0px;
@@ -40,4 +53,18 @@ main img {
   margin-top: 15px;
   border-top: 1px solid #000;
   text-align: center;
+}
+ul{
+    list-style: none;
+    padding: 1rem;
+
+}
+/*Class Selectors*/
+.box{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #0a66c2;
+    color: #e7f3ff;
+    background-color:#f3f6f8 ;
+
 }
